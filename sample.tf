@@ -16,4 +16,3 @@ data "aws_ami" "centos" {
 output "ami" {
   value = data.aws_ami.centos.image_id
 }
-..
