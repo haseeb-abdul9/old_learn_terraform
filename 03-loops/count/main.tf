@@ -1,8 +1,13 @@
 resource "null_resource" "null" {
-  count = length(var.list)
+  count = length(var.fruits)
+
+  provisioner "local-exec" {
+    command = "echo${var.fruits[count.index]}"
+  }
 }
 
 
-variable "list" {
+variable "fruits" {
   default = [ "spple", "banana", "mango" ]
 }
+
