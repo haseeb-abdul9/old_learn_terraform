@@ -1,3 +1,8 @@
 resource "null_resource" "null" {
-  count = 6
+  count = length(var.list)
+}
+
+
+variable "list" {
+  default = [ "spple", "banana", "mango" ]
 }
