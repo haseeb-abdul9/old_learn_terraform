@@ -39,19 +39,5 @@ variable "fruits1" {
 }
 
 
-variable "fruits1" {
-  default = {
-    apple = {
-      name = "apple"
-      count = 10
-    }
-    banana = {
-      name = "banana"
-      count = 20
-    }
-    mango = {
-      name = "mango"
-      count = 30
-    }
-  }
+
 }
