@@ -11,7 +11,7 @@ variable "fruits" {
   default = [ "apple", "banana", "mango" ]
 }
 
-resource "null_resource" "null" {
+resource "null_resource" "fruits1" {
   for_each = var.fruits1
 
   provisioner "local-exec" {
