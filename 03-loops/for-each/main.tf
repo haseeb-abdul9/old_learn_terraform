@@ -37,7 +37,3 @@ variable "fruits1" {
     }
   }
 }
-
-
-
-}
