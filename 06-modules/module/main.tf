@@ -15,3 +15,5 @@ resource "null_resource" "nothing2" {
     command = "echo hello world from module2"
   }
 }
+
+variable "input" {}
