@@ -3,7 +3,7 @@ resource "aws_instance" "workstation" {
   instance_type = "t3.small"
 
   tags = {
-    name = "workstation"
+    "Name" = "workstation"
   }
 }
 
