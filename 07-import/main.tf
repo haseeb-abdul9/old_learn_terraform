@@ -6,3 +6,7 @@ resource "aws_instance" "workstation" {
     name = "workstation"
   }
 }
+
+output "private_id" {
+  value = aws_instance.workstation.private_ip
+}
