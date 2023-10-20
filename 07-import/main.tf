@@ -1,1 +1,1 @@
-resource "aws_instance" "workstation1" {}
+resource "aws_instance" "workstation" {}
